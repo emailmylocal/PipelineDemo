@@ -3,6 +3,19 @@
   <groupId>pipeline</groupId>
   <artifactId>pipeline</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version> <!-- Use the version you need -->
+    </dependency>
+     <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+        </dependency>
+</dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
